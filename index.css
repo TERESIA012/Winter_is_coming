@@ -91,5 +91,10 @@ nav ul li a {
     position: absolute;
     bottom: 0;
     top: 5rem;
-    right: 180px;
+    right: 100px;
+ 
+}
+.feature-img {
+    background-color: #ff7f08;
+    border-radius: 15px 15px 0px 0px;
 }
