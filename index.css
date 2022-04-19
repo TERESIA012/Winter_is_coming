@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family:' Dosis ', sans-serif;
 }
 
 .container {
@@ -31,7 +32,7 @@
     cursor: pointer;
 }
 
-i {
+.navbar i {
     width: 140px;
     cursor: pointer;
 
@@ -96,5 +97,27 @@ nav ul li a {
 }
 .feature-img {
     background-color: #ff7f08;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 0px 0px 0px 150px;
+}
+
+.socials-icons {
+   width: 200px;
+   text-align: center;
+   opacity: .4;
+   position: relative;
+}
+.socials-icons i {
+    height: 20px;
+    margin: 0 14px;
+  
+   
+}
+.socials-icons ::after{
+    content: '';
+    width: 150px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    left: 190px;
+    top: 10px;
 }
