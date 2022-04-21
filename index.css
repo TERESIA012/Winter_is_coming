@@ -239,3 +239,18 @@ h4{
 .exclusive h1{
     font-weight: bold;
 }
+.exclusive small{
+    color: #3a2b2a;
+}
+
+.btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #ffa500, #ffa500);
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #291e1d;
+    box-shadow: 3px 8px 22px rgba(41, 28, 28, 0.25);
+    width: 200px;
+}
